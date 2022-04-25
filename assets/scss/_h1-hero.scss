@@ -120,9 +120,9 @@
                 border-radius: 50%;
                 position: relative;
                 margin-left: 29px;
-                border: 1px solid #ffdb6f;
+                border: 1px solid #e62b1e;
                 i{
-                    color: #ffdb6f;
+                    color: #e62b1e;
                 }
             }
             .video-cap{
@@ -243,7 +243,7 @@
                 height: 10px;
                 content: "";
                 border-radius: 50%;
-                background: #ffdb6f;
+                background: #e62b1e;
             }
             &::before{
                 position: absolute;
@@ -253,7 +253,7 @@
                 height: 10px;
                 content: "";
                 border-radius: 50%;
-                background: #ffdb6f;
+                background: #e62b1e;
             }
             &:last-child{
                 &::before{
@@ -265,7 +265,7 @@
             }
             span {
                 font-size: 60px;
-                color: #ffdb6f;
+                color: #e62b1e;
                 font-weight: 400;
                 line-height: 30px;
                 font-family: $font_3;
@@ -274,7 +274,7 @@
             }
             p {
                 font-size: 16px;
-                color: #ffdb6f;
+                color: #e62b1e;
                 margin-bottom: 0;
                 line-height: 30px;
                 font-family: $font_3;
