@@ -218,19 +218,8 @@
         CountDown
     --------------------*/
   // For demo preview
-  var today = new Date();
-  var dd = String(today.getDate()).padStart(2, "0");
-  var mm = String(today.getMonth() + 1).padStart(2, "0"); //January is 0!
-  var yyyy = today.getFullYear();
-  if (mm == 12) {
-    mm = "01";
-    yyyy = yyyy + 1;
-  } else {
-    mm = parseInt(mm) + 1;
-    mm = String(mm).padStart(2, "0");
-  }
-  var timerdate = mm + "/" + dd + "/" + yyyy;
-  // For demo preview end
+  var timerdate = "05/14/2022";
+  console.log(timerdate);
 
   // Use this for real timer date
   /*  var timerdate = "2020/01/01"; */
