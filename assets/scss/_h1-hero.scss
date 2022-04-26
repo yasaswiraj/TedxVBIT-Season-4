@@ -243,7 +243,7 @@
                 height: 10px;
                 content: "";
                 border-radius: 50%;
-                background: #e62b1e;
+                background: black;
             }
             &::before{
                 position: absolute;
@@ -253,7 +253,7 @@
                 height: 10px;
                 content: "";
                 border-radius: 50%;
-                background: #e62b1e;
+                background: black;
             }
             &:last-child{
                 &::before{
@@ -265,7 +265,7 @@
             }
             span {
                 font-size: 60px;
-                color: #e62b1e;
+                color: black;
                 font-weight: 400;
                 line-height: 30px;
                 font-family: $font_3;
@@ -274,7 +274,7 @@
             }
             p {
                 font-size: 16px;
-                color: #e62b1e;
+                color: black;
                 margin-bottom: 0;
                 line-height: 30px;
                 font-family: $font_3;
